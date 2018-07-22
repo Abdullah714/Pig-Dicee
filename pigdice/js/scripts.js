@@ -29,7 +29,6 @@ Player.prototype.rollone = function() {
 Player.prototype.hold = function () {
   this.totalscore += this.tempscore;
   this.tempscore = 0;
-  // this.changeturn();
   alert(this.playerName + ", your turn is over, pass the die!");
 }
 

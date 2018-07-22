@@ -32,15 +32,7 @@ Player.prototype.hold = function () {
   alert(this.playerName + ", your turn is over, pass the die!");
 }
 
-// // changing turn
-// Player.prototype.changeturn = function () {
-//   if (this.roll ===1) {
-//     this.turn = false;
-//   } else {
-//     this.turn = true;
-//   }
-// }
-// check for 100
+
 Player.prototype.winnerCheck = function () {
   if (this.totalscore >= 100) {
     alert(this.playerName + " You are the winner!");

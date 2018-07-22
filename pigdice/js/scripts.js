@@ -61,7 +61,7 @@ var clearValues = function(){
   $(".player2Name").val("");
 }
 
-// User Interface
+// Front-End Logic
 $(document).ready(function() {
 
   $("button#start").click(function(event){
